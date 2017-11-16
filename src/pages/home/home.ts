@@ -10,7 +10,7 @@ export class HomePage {
   url: any;
   constructor(private sanitize: DomSanitizer) {}
   urlpaste(){
-    this.url = "http://handy-jacks.com/";
+    this.url = "https://hackerrankgeek.wordpress.com/";
     return this.sanitize.bypassSecurityTrustResourceUrl(this.url);
   }
 }
